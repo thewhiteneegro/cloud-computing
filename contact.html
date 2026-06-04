@@ -1,0 +1,91 @@
+<!-- contact.html - Contact Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cloud Lab Group Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Cloud Lab Group</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1 class="page-title">Contact Us</h1>
+
+        <section class="contact-section">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions about our project or want to collaborate? Reach out to us!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>cloud-innovators@university.edu</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">🏫</span>
+                            <div>
+                                <h4>University</h4>
+                                <p>[Your University Name]</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Computer Science Department</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">🔗</span>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/[username]/cloud-lab-group-project" target="_blank">github.com/[username]/cloud-lab-group-project</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send a Message</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Message subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Cloud Innovators. Cloud Computing Lab Project.</p>
+    </footer>
+</body>
+</html>
